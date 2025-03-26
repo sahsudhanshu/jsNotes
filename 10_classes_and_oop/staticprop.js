@@ -12,6 +12,15 @@ class User {
     }
 }
 
+//When to Use static?
+// When a function doesn’t need access to instance properties.
+
+// For utility/helper methods (e.g., Math.max()).
+
+// For maintaining a class-wide state (e.g., a counter).
+
+// For defining constants related to a class.
+
 const hitesh = new User("hitesh")
 // console.log(hitesh.createId())
 
